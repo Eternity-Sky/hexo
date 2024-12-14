@@ -12,8 +12,8 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here
-url: https://Eternity-sky.github.io
-root: /
+url: https://Eternity-sky.github.io/hexo
+root: /hexo/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -149,5 +149,5 @@ theme_config:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/Eternity-sky/Eternity-sky.github.io.git
-  branch: main
+  repo: https://github.com/Eternity-sky/hexo.git
+  branch: gh-pages
