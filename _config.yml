@@ -145,6 +145,36 @@ theme_config:
     position: top
     color: "#37c6c0"
 
+  # Comments
+  comments:
+    # Available values: tabs | buttons
+    style: tabs
+    # Choose a comment system to be displayed by default
+    active: gitalk
+    # Order of comment systems when multiple are enabled
+    storage: true
+    lazyload: false
+    nav:
+      gitalk:
+        text: GitHub Comments
+        order: 1
+
+  # Gitalk
+  # For more information: https://gitalk.github.io
+  gitalk:
+    enable: true
+    github_id: Eternity-sky # GitHub repo owner
+    repo: hexo # Repository name to store issues
+    client_id: Ov23liV8chiGJVL4lPy0 # GitHub Application Client ID
+    client_secret: c236a91224a922dfb264787aff1f46181d3f91d3 # GitHub Application Client Secret
+    admin: ['Eternity-sky'] # GitHub repo owner and collaborators
+    language: zh-CN # en, zh-CN, zh-TW, es-ES, fr, ru, de, pl and ko are currently available
+    labels: ['Gitalk'] # GitHub issue labels
+    perPage: 10 # Pagination size, with maximum 100
+    pagerDirection: last # Comment sorting direction, available values are last and first
+    distractionFreeMode: false # Facebook-like distraction free mode
+    createIssueManually: true # By default, Gitalk will create a corresponding github issue for your every single page automatically when the logined user is belong to the admin users. You can create it manually by setting this value to true
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
