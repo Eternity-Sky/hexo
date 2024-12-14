@@ -146,8 +146,8 @@ theme_config:
     color: "#37c6c0"
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
+## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/Eternity-sky/hexo.git
-  branch: gh-pages
+  repository: https://github.com/Eternity-sky/hexo.git
+  branch: main
